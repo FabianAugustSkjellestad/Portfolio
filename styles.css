@@ -624,4 +624,14 @@ header {
         margin: 0; 
         list-style: none; 
     }
+
+    .section-contact .contact-button,
+    .contact-info .contact-button,
+    .about-content .contact-button {
+        display: block !important;
+        width: fit-content;
+        margin: 0.5rem auto !important;
+    }
+
+
 }

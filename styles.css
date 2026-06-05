@@ -221,6 +221,7 @@ header {
 .project-card {
     background-color: var(--background-color);
     border-radius: 8px;
+    border: 1px solid var(--primary-color);
     overflow: hidden;
     width: 300px;
     padding-bottom: 20px;
@@ -281,7 +282,7 @@ header {
     transform: scale(1.15);
 }
 
-.project-img-wrapper {
+.project-img-container {
     position: relative;
 }
 

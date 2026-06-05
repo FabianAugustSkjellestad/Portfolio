@@ -252,10 +252,10 @@ header {
 }
 
 .project-text {
-    font-size: var(--font-size-text);
+    font-size: var(--font-size-mobile-text);
     font-weight: 300;
     text-align: center;
-    margin-top: 0;
+    padding: 10px;
 }
 
 .project-links {
@@ -280,6 +280,10 @@ header {
     background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     color: var(--background-color);
     transform: scale(1.1);
+}
+
+.project-img-wrapper {
+    position: relative;
 }
 
 /* --- Contact Section --- */

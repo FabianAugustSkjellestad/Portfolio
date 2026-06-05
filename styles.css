@@ -32,6 +32,12 @@ main {
     overflow: visible;
 }
 
+section {
+    min-height: 100vh;
+    scroll-snap-align: start;
+    padding-top: 200px;
+}
+
 .navigation,
 .about-h1,
 .about-h2,
@@ -89,4 +95,70 @@ header {
 
 .navigation a:hover {
     text-decoration: underline;
+    transform: scale(1.05);
 }
+
+/* --- About Section --- */
+
+.section-about {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-h1 {
+    font-size: var(--font-size-h1);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-image img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50px;
+    box-shadow: 0 8px 24px var(--primary-color);
+}
+
+.about-h2 {
+    font-size: var(--font-size-h2);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.about-p {
+    font-size: var(--font-size-text);
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transition 0.3s ease;
+}
+
+.contact-button:hover {
+    transform: scale(1.05);
+}
+
+/* --- Skills Section --- */
+
+
+/* --- Projects Section --- */
+
+
+/* --- Contact Section --- */

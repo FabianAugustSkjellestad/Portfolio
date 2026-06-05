@@ -203,7 +203,7 @@ header {
 .projects-h2 {
     text-align: center;
     font-size: var(--font-size-h1);
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     margin-top: -20px;
 }
 
@@ -241,7 +241,7 @@ header {
     font-size: var(--font-size-h3);
     font-weight: 500;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 .project-name {
@@ -251,11 +251,10 @@ header {
     margin-top: 0;
 }
 
-.project-text {
+.project-description {
     font-size: var(--font-size-mobile-text);
     font-weight: 300;
     text-align: center;
-    padding: 10px;
 }
 
 .project-links {
@@ -284,6 +283,23 @@ header {
 
 .project-img-wrapper {
     position: relative;
+}
+
+.project-tags {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+.tag {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 /* --- Contact Section --- */

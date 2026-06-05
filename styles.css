@@ -385,7 +385,10 @@ header {
 }
 
 .contact-details i {
-    color: var(--primary-color);
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+
 }
 
 .contact-email {

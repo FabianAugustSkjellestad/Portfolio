@@ -370,6 +370,7 @@ header {
     color: var(--text-color);
 }
 
+
 .contact-info {
     display: flex;
     flex-direction: column;
@@ -390,10 +391,6 @@ header {
     margin-bottom: 12px;
 }
 
-.contact-details i {
-    margin-right: 2px;
-    display: inline-block;
-}
 
 .contact-email {
     color: var(--text-color);

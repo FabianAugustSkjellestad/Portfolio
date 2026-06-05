@@ -209,7 +209,7 @@ header {
     text-align: center;
     font-family: var(--font-family-heading);
     font-size: var(--font-size-h1);
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     margin-top: -20px;
 }
 
@@ -217,6 +217,7 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
+    margin-top: 20px;
     justify-content: center;
     justify-items: center;
     margin: 0 auto;
@@ -256,12 +257,14 @@ header {
     font-weight: 300;
     text-align: center;
     margin-top: 0;
+    padding: 10px;
 }
 
 .project-description {
     font-size: var(--font-size-mobile-text);
     font-weight: 300;
     text-align: center;
+    padding: 10px;
 }
 
 .project-links {
@@ -497,6 +500,11 @@ header {
     /* skills section adjustments */
     .section-skills {
         padding: 40px 12px;
+    }
+
+    .skills-h2 {
+        margin-top: 40px !important;
+        margin-bottom: 24px;
     }
 
     .skills-container {

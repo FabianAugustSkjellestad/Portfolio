@@ -364,6 +364,22 @@ header {
     color: var(--text-color);
 }
 
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.contact-details {
+    color: var(--text-color);
+    font-size: var(--font-size-text);
+    width: 100%;
+    max-width: 280px;
+    list-style: none;
+    font-family: var(--font-family);
+}
+
 .contact-img {
     width: 120px;
     height: 120px;
@@ -372,8 +388,4 @@ header {
     border: 2px solid var(--primary-color);
     margin-bottom: 10px;
     display: block;
-}
-
-.contact-details{
-
 }

@@ -380,6 +380,24 @@ header {
     font-family: var(--font-family);
 }
 
+.contact-details li {
+    margin-bottom: 12px;
+}
+
+.contact-details i {
+    color: var(--primary-color);
+}
+
+.contact-email {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.contact-email:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
 .contact-img {
     width: 120px;
     height: 120px;

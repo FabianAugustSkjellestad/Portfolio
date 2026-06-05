@@ -389,6 +389,15 @@ header {
 
 .contact-details li {
     margin-bottom: 12px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-details i,
+.contact-details svg {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 

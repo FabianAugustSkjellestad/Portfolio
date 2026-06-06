@@ -429,7 +429,7 @@ header {
     display: block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
     /* scale down base font size for mobile */
     :root {
         --font-size-text: 16px;

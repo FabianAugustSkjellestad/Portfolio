@@ -663,3 +663,44 @@ header {
         vertical-align: middle;
     }
 }
+
+/* --- Scroll Styling --- */
+
+.scroll-arrow {
+    position: fixed;
+    left: 50%;
+    bottom: 28px;
+    width: 20px;
+    height: 20px;
+    border-right: 3px solid var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
+    transform: translateX(-50%) rotate(45deg);
+    opacity: 0.9;
+    animation: arrowBounce 2s infinite ease-in-out;
+    z-index: 9999;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.scroll-arrow.up {
+    transform: translateX(-50%) rotate(-135deg);
+    animation: arrowUpBounce 2s infinite ease-in-out;
+}
+
+@keyframes arrowBounce {
+    0%, 100% {
+        transform: translateX(-50%) rotate(45deg) translateY(0);
+    }
+    50% {
+        transform: translateX(-50%) rotate(45deg) translateY(-10px);
+    }
+}
+
+@keyframes arrowUpBounce {
+    0%, 100% {
+        transform: translateX(-50%) rotate(-135deg) translateY(0);
+    }
+    50% {
+        transform: translateX(-50%) rotate(-135deg) translateY(10px);
+    }
+}

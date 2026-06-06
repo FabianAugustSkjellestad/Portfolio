@@ -1,3 +1,4 @@
+/* --- Variables --- */
 :root {
     --primary-color: #3498db;
     --secondary-color: #2ecc71;
@@ -12,6 +13,7 @@
     --font-size-mobile-text: 16px;
 }
 
+/* --- Global --- */
 html, body {
     scroll-behavior: smooth;
     margin: 0;
@@ -57,7 +59,7 @@ section {
     color: var(--text-color);
 }
 
-
+/* --- Header --- */
 header {
     position: fixed;
     top: 0;
@@ -92,7 +94,7 @@ header {
     text-decoration: none;
     font-size: var(--font-size-h3);
     font-weight: bold;
-    transition: text-decoration 0.3s ease;
+    transition: text-decoration 0.3s ease, transform 0.15s ease;
 }
 
 .navigation a:hover {
@@ -103,14 +105,13 @@ header {
 /* --- About Section --- */
 
 .section-about {
-    margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
     padding: 40px 0;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 100px auto 0;
 }
 
 .about-content {
@@ -220,7 +221,7 @@ header {
     margin-top: 20px;
     justify-content: center;
     justify-items: center;
-    margin: 0 auto;
+    margin: 20px auto 0;
     max-width: 1000px;
 }
 
@@ -274,7 +275,7 @@ header {
 }
 
 .project-link {
-    display: inline;
+    display: inline-block;
     background-color: var(--background-color);
     color: var(--text-color);
     padding: 8px 16px;
@@ -360,17 +361,18 @@ header {
     text-align: center;
     margin-bottom: 10px;
     text-decoration: none;
-    transition: transform 0.3s ease, 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .contact-links-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .contact-link:hover {
     background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     transform: scale(1.15);
-    color: var(--text-color);
 }
 
 
@@ -388,6 +390,8 @@ header {
     max-width: 280px;
     list-style: none;
     font-family: var(--font-family);
+    padding: 0;
+    margin: 0;
 }
 
 .contact-details li {
@@ -453,7 +457,6 @@ header {
 
     header {
         padding: 12px 0;
-        backdrop-filter: blur(6px);
     }
 
     .header-container {
@@ -564,10 +567,16 @@ header {
 
     .contact-link {
         display: inline-block;
-        margin: 0 auto;
+        margin: 0.5rem auto;
         width: auto;
         padding: 12px 18px;
         font-size: 16px;
+    }
+
+    .contact-links-list {
+        padding: 0;
+        margin: 0;
+        list-style: none;
     }
 
     .contact-info {
@@ -580,6 +589,8 @@ header {
         max-width: 100%;
         width: 100%;
         justify-content: center;
+        padding: 0;
+        margin: 0 auto;
     }
 
     .contact-img {
@@ -590,7 +601,7 @@ header {
     /* button, link and icon adjustments */
     .contact-button {
         display: inline-block;
-        margin: 0 auto;
+        margin: 0.5rem auto;
         width: auto;
         padding: 8px 16px;
     }
@@ -611,33 +622,24 @@ header {
         box-shadow: none;
     }
 
+    /* center lists and details */
     .contact-links-group,
-    .contact-card {
-        text-align: center;
+    .contact-card,
+    .contact-info,
+    .section-contact {
+        text-align: center !important;
     }
 
-    .contact-links-group .contact-link,
+    .contact-links-group,
+    .contact-link,
     .contact-links-list .contact-link {
         display: inline-block !important;
         width: auto !important;
         margin: 0.5rem auto !important;
     }
 
-    .contact-info .contact-button {
-        display: inline-block !important;
-        width: auto !important;
-        margin: 0.5rem auto !important;
-        text-align: center;
-    }
-
-    .contact-links-list {
-        padding: 0; 
-        margin: 0; 
-        list-style: none; 
-    }
-
-    .section-contact .contact-button,
     .contact-info .contact-button,
+    .section-contact .contact-button,
     .about-content .contact-button,
     .about-image img {
         display: block !important;
@@ -645,20 +647,7 @@ header {
         margin: 0.5rem auto !important;
     }
 
-
-    /* center contact details on small screens */
-    .contact-info,
-    .section-contact {
-        text-align: center !important;
-    }
-
-    .contact-details {
-        padding: 0;
-        margin: 0 auto;
-        list-style: none;
-        max-width: 100%;
-    }
-
+    /* Contact details inline blocks centered */
     .contact-details li {
         display: inline-flex;
         align-items: center;

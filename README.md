@@ -10,6 +10,9 @@ A personal portfolio highlighting my projects, abilities, and contact details, w
 - CSS
 - VS Code
 
+## Live Link
+https://fabianaugustskjellestad.github.io/Portfolio/ 
+
 ## Projects
 ### Rainy Days
 - Live Server: https://fabianaugustskjellestad.github.io/FabianAugust-RainyDays/

@@ -11,15 +11,15 @@ A personal portfolio highlighting my projects, abilities, and contact details, w
 - VS Code
 
 ## Projects
-- Rainy Days
-Live Server: https://fabianaugustskjellestad.github.io/FabianAugust-RainyDays/
-GitHub Repo: https://github.com/FabianAugustSkjellestad/FabianAugust-RainyDays
-- Community Science Museum
-Live Server: https://fabianaugustskjellestad.github.io/Semester-project-1/
-GitHub Repo: https://github.com/FabianAugustSkjellestad/Semester-project-1
-- GameHub
-  Live Server: https://fabianaugustskjellestad.github.io/FabianSkjellestad-Gamehub-js/
-  GitHub Repo: https://github.com/FabianAugustSkjellestad/FabianSkjellestad-Gamehub-js
+### Rainy Days
+- Live Server: https://fabianaugustskjellestad.github.io/FabianAugust-RainyDays/
+- GitHub Repo: https://github.com/FabianAugustSkjellestad/FabianAugust-RainyDays
+### Community Science Museum
+- Live Server: https://fabianaugustskjellestad.github.io/Semester-project-1/
+- GitHub Repo: https://github.com/FabianAugustSkjellestad/Semester-project-1
+### GameHub
+- Live Server: https://fabianaugustskjellestad.github.io/FabianSkjellestad-Gamehub-js/
+- GitHub Repo: https://github.com/FabianAugustSkjellestad/FabianSkjellestad-Gamehub-js
 
 ## Contact
 fabianaugustskjellestad@gmail.com
